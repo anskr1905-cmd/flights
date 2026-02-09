@@ -1,1 +1,244 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | SkyJet Airways</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/color/96/airplane-front-view.png">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="main-header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <i class="fas fa-plane"></i>
+                    <span>SkyJet</span> Airways
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="about.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+                    <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                    <li class="dropdown">
+                        <a href="#"><i class="fas fa-file-alt"></i> Policies <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="privacy.html"><i class="fas fa-shield-alt"></i> Privacy Policy</a>
+                            <a href="terms.html"><i class="fas fa-scale-balanced"></i> Terms & Conditions</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="book-cta">
+                    <a href="tel:+18005551234" class="phone-link"><i class="fas fa-phone"></i> +1-800-555-1234</a>
+                </div>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We're here to help. Reach out to our customer support team for assistance with bookings, flights, or any other inquiries.</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <div class="page-content">
+        <div class="container">
+            <div class="content-container">
+                <h2>Get in Touch</h2>
+                <p>At SkyJet Airways, we value your feedback and are committed to providing exceptional customer service. Whether you have questions about your booking, need assistance with a flight, or want to provide feedback about your travel experience, our team is ready to assist you.</p>
+                
+                <div class="contact-info-box">
+                    <h3>Customer Support</h3>
+                    <div class="contact-method">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Phone Support</h4>
+                            <p><strong>General Inquiries:</strong> +1-800-555-1234 (24/7)</p>
+                            <p><strong>Flight Bookings:</strong> +1-800-555-5678</p>
+                            <p><strong>Existing Reservations:</strong> +1-800-555-9012</p>
+                            <p><strong>TTY Service:</strong> +1-800-555-3456 (for hearing impaired)</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email Support</h4>
+                            <p><strong>General Inquiries:</strong> info@skyjetairways.com</p>
+                            <p><strong>Customer Service:</strong> customerservice@skyjetairways.com</p>
+                            <p><strong>Group Bookings:</strong> groups@skyjetairways.com</p>
+                            <p><strong>Media Inquiries:</strong> media@skyjetairways.com</p>
+                            <p><strong>Privacy Concerns:</strong> privacy@skyjetairways.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Corporate Headquarters</h4>
+                            <p><strong>SkyJet Airways</strong></p>
+                            <p>123 SkyWay Blvd, Suite 1500</p>
+                            <p>Aviation City, AC 10101</p>
+                            <p>United States</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Operating Hours</h4>
+                            <p><strong>Phone Support:</strong> 24 hours a day, 7 days a week</p>
+                            <p><strong>Email Support:</strong> Response within 24 hours</p>
+                            <p><strong>Social Media:</strong> Mon-Fri, 8:00 AM - 8:00 PM (EST)</p>
+                            <p><strong>Corporate Office:</strong> Mon-Fri, 9:00 AM - 5:00 PM (EST)</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <h2>Contact Form</h2>
+                <p>Fill out the form below and we'll get back to you as soon as possible. Fields marked with * are required.</p>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-field">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-field">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-field">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-field">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="booking">Flight Booking Inquiry</option>
+                                <option value="reservation">Existing Reservation</option>
+                                <option value="refund">Refund Request</option>
+                                <option value="baggage">Baggage Issues</option>
+                                <option value="feedback">Feedback & Complaints</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-field">
+                            <label for="bookingRef">Booking Reference (if applicable)</label>
+                            <input type="text" id="bookingRef" name="bookingRef">
+                        </div>
+                        
+                        <div class="form-field">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+                
+                <h2>Frequently Asked Questions</h2>
+                
+                <h3>How can I change or cancel my flight?</h3>
+                <p>You can manage your booking online through our website or mobile app. Alternatively, you can call our reservations team at +1-800-555-9012. Please note that change and cancellation fees may apply depending on your fare type.</p>
+                
+                <h3>What documents do I need for international travel?</h3>
+                <p>For international travel, you typically need a valid passport with at least 6 months validity, and depending on your destination, you may need a visa. Please check the entry requirements for your specific destination before traveling.</p>
+                
+                <h3>How do I request special assistance?</h3>
+                <p>If you require special assistance (wheelchair service, medical equipment, etc.), please inform us at least 48 hours before your flight. You can request special assistance during booking or by calling our customer service team.</p>
+                
+                <h3>What is your baggage policy?</h3>
+                <p>Baggage allowance varies by fare class and destination. Generally, Economy passengers can check 1 bag (23kg), Premium Economy 2 bags (23kg each), Business Class 2 bags (32kg each), and First Class 3 bags (32kg each). Please check your specific booking for details.</p>
+                
+                <h2>Social Media</h2>
+                <p>Connect with us on social media for the latest updates, promotions, and travel inspiration:</p>
+                <ul>
+                    <li><strong>Facebook:</strong> <a href="#">facebook.com/skyjetairways</a></li>
+                    <li><strong>Twitter:</strong> <a href="#">twitter.com/skyjetairways</a></li>
+                    <li><strong>Instagram:</strong> <a href="#">instagram.com/skyjetairways</a></li>
+                    <li><strong>LinkedIn:</strong> <a href="#">linkedin.com/company/skyjetairways</a></li>
+                    <li><strong>YouTube:</strong> <a href="#">youtube.com/skyjetairways</a></li>
+                </ul>
+                
+                <h2>Emergency Contacts</h2>
+                <p>For urgent matters related to flights within the next 24 hours, please call our emergency hotline:</p>
+                <p><strong>Emergency Hotline:</strong> +1-800-555-9999 (Available 24/7)</p>
+                <p>This line is for urgent flight-related issues only, such as same-day flight changes, missed connections, or travel emergencies.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <a href="index.html" class="footer-logo">
+                        <i class="fas fa-plane"></i>
+                        <span>SkyJet</span> Airways
+                    </a>
+                    <p>Connecting the world with premium air travel since 1995. Your comfort and safety are our top priorities.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Flight Booking</a></li>
+                        <li><a href="#">Hotel Reservations</a></li>
+                        <li><a href="#">Car Rental</a></li>
+                        <li><a href="#">Travel Insurance</a></li>
+                        <li><a href="#">VIP Lounge</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <ul class="contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> 123 SkyWay Blvd, Aviation City</li>
+                    <li><i class="fas fa-phone"></i> +1-800-555-1234</li>
+                    <li><i class="fas fa-envelope"></i> info@skyjetairways.com</li>
+                    <li><i class="fas fa-clock"></i> 24/7 Customer Support</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 SkyJet Airways. All rights reserved. | <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
